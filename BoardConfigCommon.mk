@@ -1,4 +1,5 @@
 # Copyright (C) 2012 The CyanogenMod Project
+# Copyright (C) 2020 AospExtended Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,9 +23,6 @@ TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
-
-# LineageHW
-BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
 
 # Graphics
 TARGET_USES_C2D_COMPOSITION := true
